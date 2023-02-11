@@ -1,0 +1,125 @@
+/*Seccion buscadores*/
+
+ .signin1 {
+      background-color: #eeeeee;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 70px;
+      padding-bottom: 70px;
+ }
+ 
+h2 { 
+      width: 100%;
+      text-align: center;
+      font-weight: 900;
+      font-size: 6vw;
+      letter-spacing: 1vw;
+      text-transform: uppercase;
+      color: #1e1d1c;
+      margin-bottom: 6vw;
+}
+
+.forgot{
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+   font-weight: bold;
+   font-size: 1.2vw;
+   margin-bottom: 3vw;
+   margin-top: -1vw;
+}
+a{
+   color: rgb(238, 201, 15);
+}
+a:hover{
+   color: #1e1d1c;
+}
+
+.text1{
+   align-content: center;
+   position: relative;
+   justify-content: space-evenly;
+   border-radius: 2vw;
+   width: 30vw;
+   margin-top: .5vw;
+   margin-bottom: 2vw;
+   background-color: #DFE2F7;
+   border: none;
+   height: 50px;
+   
+}
+
+h3 {
+   text-align: center;
+   font-family: 'Poppins', sans-serif;;
+   color: #1E1D1C;
+   font-size: 1.5vw;
+}
+
+.btn1 {
+   background-color: #1e1d1c;
+   border-radius: 1.2vw;
+   padding: 1vw 2.8vw;
+   height: 45px;
+   border: none;
+   left: 7.5vw;
+   font-size: 1.5vw;
+   color: #eeeeee;
+}
+
+.btn1:hover {
+   background-color: rgb(238, 201, 15);
+   color: #1e1d1c;
+}
+
+h5{
+   margin-top: 10vw;
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   color: rgb(238, 201, 15);
+   font-size: 3vw;
+   font-weight: bold;
+   letter-spacing: 1vw;
+   text-transform: uppercase;
+   width: 50vw;
+
+}
+
+p{
+   width: 60vw;
+   font-size: 2vw;
+   font-family: 'Poppins', sans-serif;
+   text-align:center;
+   text-align-last: center;
+   color:#1E1D1C;
+   margin-top: 5vw;
+   margin-bottom: 2vw;
+   font-weight: 400;
+}
+
+h6{
+   width: 63vw;
+   font-size: 2vw;
+   font-family: 'Poppins', sans-serif;
+   text-align:center;
+   color:#1E1D1C;
+   margin-bottom: 8vw;
+   font-weight: bold;
+}
+
+.btn2 {
+   background-color: #1e1d1c;
+   border-radius: 1vw;
+   padding: 1vw 2.8vw;
+   border: none;
+   left: 7.5vw;
+   font-size: 1.5vw;
+   color: #eeeeee;
+   height: 45px;
+  
+}
+
+.btn2:hover {
+   background-color: rgb(238, 201, 15);
+   color: #1e1d1c;
+}

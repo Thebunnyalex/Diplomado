@@ -1,0 +1,91 @@
+/*Seccion buscadores*/
+.joS1{
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+ }
+ .joS1 h2{
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+    font-size: 6vw;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+ }
+ 
+ .joBusqS1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+ }
+ 
+ .jobusqueS1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    width: 90%;
+ }
+ 
+ .jobusqueS1 h3{
+    color: rgb(238, 201, 15);
+    font-weight: 500;
+    font-size: 2vw;
+    text-align: center;
+    padding-top: 20px;
+    width: 18.5vw;
+ }
+
+ .jobusqueS1 h4{
+   color: rgb(238, 201, 15);
+   font-weight: 500;
+   font-size: 2vw;
+   text-align: center;
+   padding-top: 20px;
+   width: -4vw;
+}
+
+ 
+ .jobusqueS1 input{
+    background-color: #DFE2F7;
+    border-radius: 25px;
+    border: none;
+    height: 45px;
+    width: 90%;
+ 
+ }
+
+ .jobusqueS1 p{
+   color: #1e1d1ca6;
+   font-family: 'Poppins', sans-serif ;
+   font-size: 1vw;
+   text-align: left;
+ }
+ 
+ 
+
+ .find1 {
+      margin-top: 5vw;
+      margin-bottom: 2vw;
+      background-color: #1e1d1c;
+      border-radius: 1.2vw;
+      padding: 2vw 6vw;
+      height: 45px;
+      border: none;
+      font-size: 1.5vw;
+      color: #eeeeee;
+      text-align: center;
+      line-height: 5px;
+     
+   }
+   
+   .find1:hover {
+      background-color: rgb(238, 201, 15);
+      color: #1e1d1c;
+   }
+

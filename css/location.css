@@ -1,0 +1,111 @@
+/*Seccion buscadores*/
+.BuscadoresS1{
+   background-color: #eeeeee;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 70px;
+}
+.BuscadoresS1 h2{
+   width: 100%;
+   text-align: center;
+   font-weight: 900;
+   font-size: 65px;
+   letter-spacing: 25px;
+}
+
+.BusqS1 {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   width: 100%;
+}
+
+.busqueS1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 30px;
+}
+
+.busqueS1 h3{
+   color: rgb(238, 201, 15);
+   font-weight: 900;
+   font-size: 30px;
+   text-align: center;
+   padding-top: 20px;
+}
+
+.busqueS1 p{
+   color: rgba(0, 0, 0, 0.70);
+   font-weight: 100;
+   font-size: 16px;
+   text-align: start;
+   padding-bottom: 0;
+   margin-bottom: 0;
+   text-align: left;
+   width: 95%;
+}
+
+.busqueS1 input{
+   background-color: #DFE2F7;
+   border-radius: 25px;
+   border: none;
+   height: 45px;
+   width: 650px;
+   padding-left: 20px;
+}
+
+.busqueS1 button{
+   background-color: black;
+   color: #eeeeee;
+   border:none;
+   border-radius: 15px;
+   padding: 15px 100px;
+   margin-top: 35px;
+}
+
+.busqueS1 button:hover{
+   background-color: rgb(238, 201, 15);
+   color: black;
+   border: none;
+}
+
+.flecha{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 10%;
+}
+
+.flecha img{
+   width: 50%;
+   padding-top: 80px;
+}
+/*Seccion mapa*/
+.mapLocationS2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #eeeeee;
+   width: 100%;
+   padding: 2.5% 0%;
+}
+.mapaLocation{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.mapaLocation iframe{
+   width: 90%;
+   height: 700px;
+}
+
+.input {
+   
+
+}
