@@ -241,48 +241,48 @@ html body{
 }
 
 .spacioS3{
-    width: 60px;
+    width: 4vw;
 }
 
 .hojaInfoS3{
     background-color: #EEEEEE;
-    padding: 100px;
-    border-radius: 25px;
+    padding: 3vw;
+    border-radius: 1vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    width: 1000px;
-    margin-top: 60px;
+    width: 38%;
+    margin-top: 4vw;
    
 }
 
 .hojaInfoS3 h2{
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
-    font-size: 60px;
-    letter-spacing: 10px;
+    font-size: 2.5vw;
+    letter-spacing: .2vw;
     text-transform: uppercase;
-    width: 100%;
+    width: 90%;
     text-align: center;
 }
 
 .hojaInfoS3 h3{
     font-family: 'Poppins', sans-serif;
-    width: 100%;
+    width: 70%;
     text-align: center;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 1.3vw;
     text-align: center;
     margin-bottom: 50px;
 }
 
 .hojaInfoS3 p{
     font-family: 'Poppins', sans-serif;
-    width: 100%;
+    width: 80%;
     text-align: center;
-    font-weight: 300;
-    font-size: 30px;
+    font-weight: 600;
+    font-size: 1.4vw;
     text-align: center;
 }
 
@@ -290,10 +290,10 @@ html body{
     background-color: var(--color-title);
     color: black;
     border: none;
-    border-radius: 15px;
-    padding: 30px 90px;
-    margin-top: 30px;
-    font-size: 30px;
+    border-radius: 1vw;
+    padding: 1.5vw 3vw;
+    margin-top: 3vw;
+    font-size: 1.3vw;
 }
 .hojaInfoS3 button:hover{
     background-color: black;
@@ -306,41 +306,39 @@ html body{
     flex-direction: column;
     align-items: center;
     align-content:center;
-    width: 2060px;
-    margin-top: 60px;
-    margin-left: 220px;
-    border-radius: 25px;
-    background-color: #EEEEEE;
+    width: 100%;
+    
 }
 .hojaInfoS4{
     background-color: #EEEEEE;
-    padding: 30px;
-    border-radius: 25px;
+    padding: 3vw;
+    border-radius: 1vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    width: 60%;
-    margin-top: 30px;
+    width: 80%;
+    margin-top: 3vw;
 }
 
 .hojaInfoS4 h2{
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
     font-size: 60px;
-    letter-spacing: 10px;
+    letter-spacing: .5vw;
     text-transform: uppercase;
-    width: 100%;
+    width: 50%;
     text-align: center;
+    margin-top: 1.5vw;
 }
 
 
 .hojaInfoS4 p{
     font-family: 'Poppins', sans-serif;
-    width: 100%;
+    width: 50%;
     text-align: center;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 1.3vw;
     text-align: center;
 }
 
@@ -348,11 +346,10 @@ html body{
     background-color: var(--color-title);
     color: black;
     border: none;
-    border-radius: 15px;
-    padding: 30px 90px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 30px;
+    border-radius: .5vw;
+    padding: 1.5vw 3vw;
+    margin-top: 3vw;
+    font-size: 1.3vw;
 
 }
 .hojaInfoS4 button:hover{
@@ -366,38 +363,43 @@ html body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
     margin: 80px 0px;
 }
 
 .seccion5 h2{
     color: var(--color-title);
     font-weight: 300;
-    font-size: 45px;
-    margin: 20px 0px;
-
+    font-size: 2.5vw;
+    margin-top: 4vw;
 }
 .buscador{
     display: flex;
     justify-content: space-between;
+    margin-top: .5vw;
+    margin-bottom: 2vw;
+    width: 35%;
 }
 
 .buscador input{
     border: none;
     color: black;
     border: none;
-    border-radius: 15px 0px 0px 15px;
-    padding: 30px 55px;
-    margin-top: 30px;
-    width: 650px;
+    border-radius: 1vw 0vw 0vw 1vw;
+    padding: 1.5vw 3vw;
+    margin-top: 3vw;
+    width: 85%;
+    font-size:1.2vw;
 }
 .buscador button{
     background-color: var(--color-title);
     color: black;
     border: none;
-    border-radius: 0px 15px 15px 0px;
-    padding: 30px 50px;
-    margin-top: 30px;
-    font-size: 30px;
+    border-radius: 0vw 1vw 1vw 0vw;
+    padding: 1.5vw 1vw;
+    margin-top: 3vw;
+    width: 15%;
+    font-size: 1.2vw;
 }
 
 .buscador button:hover{
@@ -408,15 +410,16 @@ html body{
 /*seccion 6*/
 .seccion6{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 90%;
     width: 100%;
-    padding: 45px 0px;
+    padding: 4vw 0vw;
     background-color: #E9BB0A;
    
 }
 
 .mapaS6{
-    grid-column: 1 / 3;
+    grid-column: 90%;
     color: #EEEEEE;
     display: flex;
     flex-direction: column;
@@ -424,60 +427,59 @@ html body{
     justify-content: flex-start;
 }
 .mapaS6 iframe{
-    width: 1300px;
-    height: 900px;
-    padding: 0px 20px;
-    border-radius: 2vw;
-    margin-top: 60px;
-
+    width: 80%;
+    height: 86%;
+    margin-top: 10%;
 }
 
 .hojaInfoS6{
+    width: 100%;
     color: #EEEEEE;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin-right: 60px;
 }
 
 .Colum2S6{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
-    padding: 30px 5px;
-    border-bottom: 1px solid #eeeeee;
+    width: 90%;
+    margin-left: -15%;
+    padding: 1.5vw;
+    border-bottom: .2vw solid #eeeeee;
 }
 
 .Colum2S6 svg{
-    width: 70px;
-    margin-left: 20px;
+    width: 7vw;
+    margin-left: 2vw;
 }
 
 .Colum2S6 h2 {
     font-weight: 400;
-    font-size: 80px;
+    font-size: 3vw;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    margin-top: 10%;
 }
 .Colum2S6 h3{
     font-weight: 400;
-    font-size: 40px;
+    font-size: 2vw;
     text-align: left;
     width: 50%;
 }
 
 .Colum2S6 h4{
     display: flex;
-    font-weight: 800;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 1.5vw;
     text-align: left;
 }
 
 .Colum2S6 span{
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 .buscadorS6{
@@ -485,31 +487,48 @@ html body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 35px 0;
+    width: 100%;
+    margin-left: -15%;
 }
 
 .buscadorS6 h2{
     color: black;
     font-weight: 500;
-    font-size: 60 px;
-    margin-top: 45px;
+    font-size: 2.5vw;
+    margin-top: 5vw;
 }
 
-.buscadorS6 input{
-    border-radius: 25px;
+.buscadorS6i{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.buscadorS6i input{
     border: none;
-    width: 550px;
-    height: 60px;
     color: black;
-    font-weight: 300;
-    font-size: 18px;
-    padding-left: 15px;
+    border: none;
+    border-radius: 1vw 0vw 0vw 1vw;
+    padding: 1vw 1.5vw 1vw 1.5vw;
+    margin-top: 2vw;
+    width: 70%;
+    font-size:1.2vw;
+}
+.buscadorS6i button{
+    background-color: #1E1D1C;
+    color: #E9BB0A;
+    border: none;
+    border-radius: 0vw 1vw 1vw 0vw;
+    padding: 1vw 1.5vw 1vw 1.5vw;
+    margin-top: 2vw;
+    width: 30%;
+    font-size: 2vw;
+    text-align: start;
 }
 
-.buscadorS6 input::placeholder{
-    color: rgba(0, 0, 0, 0.5);
-    font-weight: 300;
-    font-size: 18px;
+.buscadorS6i button:hover{
+    background-color: #EEEEEE;
+    color: black;
 }
 
 /*seccion 7*/
@@ -559,6 +578,7 @@ html body{
     font-size: 1.5vw;
     letter-spacing: 2px;
     text-align: justify;
+    text-align-last: center;
     margin-left: 5vw;
     margin-right: 5vw;
     font-variant-caps: all-small-caps;
