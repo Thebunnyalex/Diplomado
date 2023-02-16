@@ -1,21 +1,7 @@
-$(document).ready(main);
+let mobile_menu = document.querySelector('.mobile_menu')
+let menu = document.querySelector('.menu')
 
-var contador = 1;
-
-function main(){
-    $('.bt_menu').click(function(){
-        //$('nav').toggle();%
-            
-        if(contador == 1){
-                $('.menu').animate({
-                    left: '0'
-                });
-                contador = 0; 
-            } else {
-                contador = 1;
-                    $('.menu').animate({
-                        left: '-100%'
-                    });
-                } 
-    });
-};
+mobile_menu.addEventListener('click', () => {
+    menu.classList.toggle('active')
+    mobile_menu.classList.toggle('active')
+})
