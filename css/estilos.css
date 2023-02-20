@@ -1340,12 +1340,12 @@ header{
         margin-bottom: 0vw;
         height: 18vw;
         display:block;
-        width: 85%;
+        width: 80%;
     }
     .nav__title{
         font-family: 'Roboto', sans-serif;
         font-weight: 900;
-        font-size: 9vw;
+        font-size: 8vw;
         letter-spacing: 1.2vw;
         color: #EEEEEE;
     }
@@ -1356,10 +1356,10 @@ header{
     .mobile_menu div{
         display: block;
         top: -12vw;
+        left: -8vw;
         position: relative;
-        width: 10vw;
-        height: 1vw;
-        
+        width: 250%;
+        height: .7vh;
         background-color: #eeeeee;
         margin: 10px;
         transition: transfom .5s;
@@ -1368,11 +1368,10 @@ header{
     .mobile_menu{
         display: block;
         cursor: pointer;
-        margin-right: 4vw;
     }
     
     .mobile_menu.active .line-1{
-        transform: rotate(-45deg) translate(-10px, 20px);
+        transform: rotate(-45deg) translate(0vh, 2.8vh);
     }
     
     .mobile_menu.active .line-2{
@@ -1380,18 +1379,20 @@ header{
     }
     
     .mobile_menu.active .line-3{
-        transform: rotate(45deg) translate(0px,-10px);
+        transform: rotate(45deg) translate(0vh, -2.8vh);
     }
     
     
     .menu{
-        position: absolute;
+        position:absolute;
+        display: block;
+        z-index: 400;
         width: 70%;
         height: 70%;
-        top: 10vh;
+        top: 18vh;
         margin-left: 30%;
         right: 0;
-        background-color:none;
+        background-color: none;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -1406,6 +1407,7 @@ header{
     
     .menu ul {
         padding-top: 2px;
+        
     }
     
     .menu li{
@@ -1414,7 +1416,7 @@ header{
         border-bottom: 2px solid #000000e0;
         background-color: #292928;
         width: 100%;
-        margin-left: 0px;
+        padding: 2vw 8vw;
     }
     
     .menu a{
@@ -1427,14 +1429,18 @@ header{
         float: none;
         width: 100%;
         display: block;
-        text-decoration: none;
         background-color:none;
         margin-left: 0;
         transition: .5s;
     }
     
     .menu a:hover {
-        color: #E9BB0A;
+        color: #1E1D1C;
+        
+    }
+
+    .menu li:hover{
+         background-color: #E9BB0A;
     }
     .nav__linksm{
         color: var(--color-title) ;
@@ -1447,8 +1453,9 @@ header{
     }
     .nav__linksm:hover{
         color: #1E1D1C;
-        border-top: 5px solid #151413;
         background-color: #E9BB0A;
+        border-top: none;
+        background-color:none;
         margin-left: -20px;
     }
     
@@ -2165,7 +2172,6 @@ header{
 .body{
     background-color: #1E1D1C;
     width: 100%;
-    max-width: 100%;
     overflow-x: hidden;
 }
 
@@ -2243,9 +2249,11 @@ header{
     padding-left: 0;
     transform: translateX(100%);
     transition: .5s ease-in;
+    
 }
 .menu.active {
     transform: translateX(0);
+
 }
 
 .menu ul {
