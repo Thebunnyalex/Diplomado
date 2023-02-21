@@ -1,17 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;400&family=Roboto:wght@300;500;900&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;400;800&family=Open+Sans&display=swap');
+
+:root{
+    --padding-container: 100px 0;
+    --color-title: rgb(238, 201, 15);
+    --shd: -0.78px 1.84px 11px 2pxrgba(207,207,207,0.62);
+}
+/*Clases generales*/
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1E1D1C;
+}
+html body{
+    min-height: 100vh;
+    width: 100%;
+}
+.nav{
+    --padding-container: 0 ;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+/*Encabezado*/
+.nav__logo{
+ 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    padding: 10vw 0;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav__title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 9vw;
+    letter-spacing: 2vw;
+    color: #EEEEEE;
+}
+/*Menu movil*/
+header{
+   float: none;
+}
+
+.mobile_menu div{
+    display: none;
+    top: -15vw;
+    position: relative;
+    width: 10vw;
+    height: 1vw;
+    
+    background-color: #eeeeee;
+    margin: 10px;
+    transition: transfom .5s;
+
+}
+.mobile_menu{
+    display: none;
+    cursor: pointer;
+    margin-right: 4vw;
+}
+
+.mobile_menu.active .line-1{
+    transform: rotate(-45deg) translate(-12px, 5px);
+}
+
+.mobile_menu.active .line-2{
+    opacity: 0;
+}
+
+.mobile_menu.active .line-3{
+    transform: rotate(45deg) translate(-8px, 5px);
+}
+
+.menu{
+    list-style: none;
+    display: none;
+    gap: 20px;
+}
+
+.menu.active {
+    transform: translateX(0);
+}
+/*Menu*/
+.nav__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EEEEEE;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+.nav__bar{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 5em;
+}
+.nav__items{
+    list-style: none;
+}
+.nav__links{
+    color: var(--color-title) ;
+    text-decoration: none;
+    font-size: 2.5vw;
+    font-weight: 400;
+    width: 100%;
+    padding-top: 15px;
+}
+.nav__links:hover{
+    color: #EEEEEE;
+    border-top: .5vw solid black;
+}
+
+.activado_link{
+    color: #EEEEEE;
+    border-top: .5vw solid var(--color-title); 
+}
+.activado_link:hover{
+    border: none;
+    color: #EEEEEE;  
+}
+
+
 /*Seccion buscadores*/
 .BuscadoresS1{
    background-color: #eeeeee;
    display: flex;
    flex-direction: column;
    align-items: center;
-   padding-top: 70px;
+   padding-top: 8vw;
 }
 .BuscadoresS1 h2{
    width: 100%;
    text-align: center;
    font-weight: 900;
-   font-size: 65px;
-   letter-spacing: 25px;
+   font-size: 6vw;
+   letter-spacing: 1vw;
 }
 
 .BusqS1 {
@@ -26,21 +159,21 @@
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   padding-top: 30px;
+   padding-top: 3vw;
 }
 
 .busqueS1 h3{
    color: rgb(238, 201, 15);
-   font-weight: 900;
-   font-size: 30px;
+   font-weight: 600;
+   font-size: 2.5vw;
    text-align: center;
-   padding-top: 20px;
+   padding-top: 3vw;
 }
 
 .busqueS1 p{
    color: rgba(0, 0, 0, 0.70);
    font-weight: 100;
-   font-size: 16px;
+   font-size: 1.5vw;
    text-align: start;
    padding-bottom: 0;
    margin-bottom: 0;
@@ -50,20 +183,25 @@
 
 .busqueS1 input{
    background-color: #DFE2F7;
-   border-radius: 25px;
+   border-radius: 1vw;
    border: none;
-   height: 45px;
-   width: 650px;
+   height: 4vw;
+   width: 30vw;
    padding-left: 20px;
+   color: #1E1D1C;
+   font-size: 2vw;
 }
 
 .busqueS1 button{
-   background-color: black;
-   color: #eeeeee;
-   border:none;
-   border-radius: 15px;
-   padding: 15px 100px;
-   margin-top: 35px;
+   background-color: #1E1D1C;
+   color: #EEEEEE;
+   border: none;
+   border-radius: .8vw;
+   padding: 1vw 2.8vw;
+   box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
+   margin-bottom: 5vw;
+   margin-top: 3vw;
+   font-size: 2vw;
 }
 
 .busqueS1 button:hover{
@@ -80,12 +218,12 @@
 }
 
 .flecha img{
-   width: 50%;
-   padding-top: 80px;
+   width: 60%;
+   padding-top: 8vw;
 }
 /*Seccion mapa*/
 .mapLocationS2{
-   display: flex;
+   display: block;
    justify-content: center;
    align-items: center;
    background-color: #eeeeee;
@@ -101,11 +239,116 @@
 }
 
 .mapaLocation iframe{
-   width: 90%;
-   height: 700px;
+   width: 80vw;
+   height: 50vw;
+   border-radius: 2vw;
 }
 
 .input {
    
 
 }
+.buscadorS6{
+   display: block;
+   align-items: center;
+   justify-content: center;
+   width: 60vw;
+   margin-left: 20vw;
+}
+.buscadorS6i{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+
+.buscadorS6i input{
+   border: none;
+   color: black;
+   border: none;
+   border-radius: 1vw 0vw 0vw 1vw;
+   padding: 1vw 1.5vw 1vw 1.5vw;
+   margin-top: 2vw;
+   width: 70%;
+   font-size:1.2vw;
+}
+.buscadorS6i button{
+   background-color: #1E1D1C;
+   color: #E9BB0A;
+   border: none;
+   border-radius: 0vw 1vw 1vw 0vw;
+   padding: 1vw 1.5vw 1vw 1.5vw;
+   margin-top: 2vw;
+   width: 30%;
+   font-size: 2vw;
+}
+.buscadorS6i button:hover{
+   background-color: #EEEEEE;
+   color: black;
+}
+
+/*seccion 7*/
+/*Redes*/
+.seccion7{
+    display: block;
+    position: relative;
+    width: 100%;
+    align-content: center;
+
+}
+.SecRedes{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    margin-left: 25%;
+    
+}
+.SecRedes a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee;
+    border-radius: 50%;
+    width: 8vw;
+    height: 8vw;
+}
+
+.SecRedes a img{
+    width: 70%;
+    height: 70%;
+}
+
+.nav__pagraph{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.nav__paragraph p{
+    position: relative;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.5vw;
+    letter-spacing: 2px;
+    text-align: justify;
+    text-align-last: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-variant-caps: all-small-caps;
+    color: #eeeeee7e;
+    
+}
+.nav__paragraph h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 35;
+    font-size: 2vw;
+    letter-spacing: 2px;
+    text-align: center;
+    font-variant-caps: all-small-caps;
+    color: #eeeeee;
+    margin-bottom: 100px;
+}
+
+
